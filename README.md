@@ -1,42 +1,11 @@
 # Nuxt 3 Minimal Starter with Nuxt I18n
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This repo patching Vite Vue plugin to make it work:
 
-## Setup
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/userquin/nuxt-i18n-stackblitz-starter/tree/userquin/change-logic)
 
-Make sure to install the dependencies:
+This StackBlitz repository not working when Vite warmup the client since the Vue compiler not present:
 
-```bash
-# yarn
-yarn install
+https://stackblitz.com/edit/bobbiegoede-nuxt-i18n-starter-dcgve6?file=package.json
 
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+You can remove the patch in StackBlizt to see the same error.
