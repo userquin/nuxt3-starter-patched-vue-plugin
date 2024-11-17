@@ -8,4 +8,4 @@ This StackBlitz repository not working when Vite warmup the client since the Vue
 
 https://stackblitz.com/edit/bobbiegoede-nuxt-i18n-starter-dcgve6?file=package.json
 
-You can remove the patch in StackBlizt to see the same error.
+You can remove the patch in StackBlitz to see the same error.
