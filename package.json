@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "packageManager": "pnpm@9.13.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge@^9.0.0-28860155.c0532a9",
+    "@vitejs/plugin-vue": "^5.2.0",
+    "nuxt": "^3.14.159"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@vitejs/plugin-vue@5.2.0": "patches/@vitejs__plugin-vue@5.2.0.patch"
+    }
+  }
+}
