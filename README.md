@@ -2,7 +2,7 @@
 
 This repo patching Vite Vue plugin to make it work:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/userquin/nuxt-i18n-stackblitz-starter/tree/userquin/change-logic)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/userquin/nuxt3-starter-patched-vue-plugin)
 
 This StackBlitz repository not working when Vite warmup the client since the Vue compiler not present:
 
